@@ -1,0 +1,20 @@
+{
+	"name": "shibe.online",
+	"version": "1.0.0",
+	"main": "./lib/index.js",
+	"types": "./types/index.d.ts",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/1chiSensei/shibe.online"
+	},
+	"homepage": "https://github.com/1chiSensei/shibe.online#readme",
+	"author": "1chiSensei <jmquimosing@gmail.com>",
+	"license": "GPL-3.0",
+	"private": false,
+	"scripts": {
+		"test": "node ./test/test.js"
+	},
+	"dependencies": {
+		"node-superfetch": "^0.1.10"
+	}
+}
