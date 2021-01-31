@@ -18,7 +18,7 @@
 		"lint": "yarn run eslint && yarn run prettier"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=12.0.0"
 	},
 	"dependencies": {
 		"node-superfetch": "^0.1.10"
