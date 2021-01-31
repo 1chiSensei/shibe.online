@@ -24,8 +24,8 @@
 		"node-superfetch": "^0.1.10"
 	},
 	"devDependencies": {
-		"eslint": "^7.18.0",
-		"eslint-config-tesseract": "^0.0.3",
-		"prettier": "^2.2.1"
+		"eslint": "7.18.0",
+		"eslint-config-tesseract": "0.0.3",
+		"prettier": "2.2.1"
 	}
 }
