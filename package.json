@@ -1,6 +1,6 @@
 {
 	"name": "shibe.online",
-	"version": "1.0.2",
+	"version": "1.1.0",
 	"main": "./lib/index.js",
 	"types": "./types/index.d.ts",
 	"repository": {
@@ -12,12 +12,20 @@
 	"license": "GPL-3.0",
 	"private": false,
 	"scripts": {
-		"test": "node ./test/test.js"
+		"test": "node ./test/test.js",
+		"eslint": "eslint . --fix",
+		"prettier": "prettier . --write",
+		"lint": "yarn run eslint && yarn run prettier"
 	},
 	"engines": {
 		"node": ">=8"
 	},
 	"dependencies": {
 		"node-superfetch": "^0.1.10"
+	},
+	"devDependencies": {
+		"eslint": "^7.18.0",
+		"eslint-config-tesseract": "^0.0.3",
+		"prettier": "^2.2.1"
 	}
 }

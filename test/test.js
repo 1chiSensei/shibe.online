@@ -1,8 +1,8 @@
-const Shibe = require('../lib/index');
+const Shibe = require("../lib/index");
 
 (async () => {
-	const s = await Shibe.getShibe();
-	const c = await Shibe.getCat();
-	const b = await Shibe.getBird();
-	console.log(s, c, b);
+	const sh = await Shibe.getShibe();
+	const ca = await Shibe.getCat();
+	const bi = await Shibe.getBird();
+	console.log(sh, ca, bi);
 })();
