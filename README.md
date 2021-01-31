@@ -1,4 +1,7 @@
 # shibe.online
+[![Travis](https://travis-ci.com/1chiSensei/shibe.online.svg?branch=main&status=passed)](https://travis-ci.com/1chiSensei/shibe.online)
+[![Dependencies](https://david-dm.org/1chiSensei/shibe.online.svg)](https://david-dm.org)
+
 JavaScript API wrapper for https://shibe.online.
 
 # Example
