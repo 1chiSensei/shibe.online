@@ -1,12 +1,53 @@
-# shibe.online
+<div align="center">
+        <br />
+        <h1>shibe.online</h1>
+        <br />
+        <p>
+                <a href="https://npmjs.com/package/shibe.online"><img src="https://img.shields.io/npm/v/shibe.online.svg" alt="Package" /></a>
+                <a href="https://npmjs.com/package/shibe.online"><img src="https://img.shields.io/npm/dm/shibe.online.svg" alt="Downloads" /></a>
+                <a href="https://travis-ci.com/1chiSensei/shibe.online"><img src="https://travis-ci.com/1chiSensei/shibe.online.svg?branch=main&status=passed" alt="Travis" /></a>
+                <a href="https://david-dm.org"><img src="https://david-dm.org/1chiSensei/shibe.online.svg" alt="Dependencies" /></a>
+                <a href="https://david-dm.org"><img src="https://david-dm.org/1chiSensei/shibe.online/dev-status.svg" alt="DevDeps" /></a>
+                <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg" alt="DevDeps" /></a>
+        </p>
+        <p>
+                <a href="https://nodei.co/npm/shibe.online/"><img src="https://nodei.co/npm/shibe.online.png?downloads=true&downloadRank=true&stars=true" alt="npm" /></a>
+        </p>
+</div>
 
-[![Package](https://img.shields.io/npm/v/shibe.online.svg)](https://npmjs.com/package/shibe.online)
-[![Travis](https://travis-ci.com/1chiSensei/shibe.online.svg?branch=main&status=passed)](https://travis-ci.com/1chiSensei/shibe.online)
-[![Dependencies](https://david-dm.org/1chiSensei/shibe.online.svg)](https://david-dm.org)
+## Table of Contents
+
+- [About](#about)
+- [Installation](#installation)
+- [Example](#example)
+- [Compatibility](#compatibility)
+- [Usage](#usage)
+
+## About
 
 JavaScript API wrapper for https://shibe.online.
 
-# Example
+## Installation
+
+Using [npm](https://npmjs.com):
+
+```sh
+npm i shibe.online
+```
+
+Using [yarn](https://yarnpkg.com):
+
+```sh
+yarn add shibe.online
+```
+
+Using [pnpm](https://pnpm.js.org):
+
+```sh
+pnpm add shibe.online
+```
+
+## Example
 
 ```js
 const Shibe = require("shibe.online");
@@ -21,7 +62,7 @@ Shibe.getShibe(3).then((a) => {
 });
 ```
 
-# Compatibility
+## Compatibility
 
 | Node.js Version | Compatible? |
 | :-------------: | :---------: |
@@ -40,19 +81,19 @@ Shibe.getShibe(3).then((a) => {
 |    v14.15.4     |     Yes     |
 |     v15.7.0     |     Yes     |
 
-# Usage
+## Usage
 
-##### getShibe(_[count]_)
-
-- Count is optional. (Default: 1)
-- Returns `{Promise<string | string[]>}`
-
-##### getCat(_[count]_)
+#### getShibe(_[count]_)
 
 - Count is optional. (Default: 1)
 - Returns `{Promise<string | string[]>}`
 
-##### getBird(_[count]_)
+#### getCat(_[count]_)
+
+- Count is optional. (Default: 1)
+- Returns `{Promise<string | string[]>}`
+
+#### getBird(_[count]_)
 
 - Count is optional. (Default: 1)
 - Returns `{Promise<string | string[]>}`

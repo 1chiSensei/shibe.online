@@ -1,6 +1,7 @@
 {
 	"name": "shibe.online",
-	"version": "1.1.0",
+	"version": "1.2.0",
+	"description": "JavaScript API wrapper for https://shibe.online.",
 	"main": "./lib/index.js",
 	"types": "./types/index.d.ts",
 	"repository": {
