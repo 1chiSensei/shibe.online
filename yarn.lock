@@ -167,7 +167,7 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-clean-jsdoc-theme@^3.0.6:
+clean-jsdoc-theme@3.0.6:
   version "3.0.6"
   resolved "https://registry.yarnpkg.com/clean-jsdoc-theme/-/clean-jsdoc-theme-3.0.6.tgz#cbf0c40eefcf674e76ff8d6c7a6d27c8fe6cea9c"
   integrity sha512-KbUGLAPv1q0aaJtpmQ1uMPvsVp2oebiIFxcbkJ+e4YHSQDEWHJLD8ziougWQaVp8CtqHKL7TXQz+JQOnFoUI8A==
@@ -564,7 +564,7 @@ js2xmlparser@^4.0.1:
   dependencies:
     xmlcreate "^2.0.3"
 
-jsdoc@^3.6.6:
+jsdoc@3.6.6:
   version "3.6.6"
   resolved "https://registry.yarnpkg.com/jsdoc/-/jsdoc-3.6.6.tgz#9fe162bbdb13ee7988bf74352b5147565bcfd8e1"
   integrity sha512-znR99e1BHeyEkSvgDDpX0sTiTu+8aQyDl9DawrkOGZTTW8hv0deIFXx87114zJ7gRaDZKVQD/4tr1ifmJp9xhQ==
