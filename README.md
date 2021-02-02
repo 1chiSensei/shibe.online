@@ -19,6 +19,7 @@
 
 - [About](#about)
 - [Installation](#installation)
+- [Documentation](#documentation)
 - [Example](#example)
 - [Compatibility](#compatibility)
 - [Usage](#usage)
@@ -46,6 +47,10 @@ Using [pnpm](https://pnpm.js.org):
 ```sh
 pnpm add shibe.online
 ```
+
+## Documentation
+
+The documentation is at https://1chisensei.github.io/shibe.online.
 
 ## Example
 
