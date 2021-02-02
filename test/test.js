@@ -1,4 +1,4 @@
-const Shibe = require("../lib/index");
+const Shibe = require('../lib/index');
 
 (async () => {
 	const sh = await Shibe.getShibe();

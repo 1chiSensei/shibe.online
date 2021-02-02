@@ -55,7 +55,7 @@ The documentation is at https://1chisensei.github.io/shibe.online.
 ## Example
 
 ```js
-const Shibe = require("shibe.online");
+const Shibe = require('shibe.online');
 
 (async () => {
 	const img = await Shibe.getShibe();

@@ -1,9 +1,9 @@
 !(function (e, t) {
-	"object" == typeof exports && "object" == typeof module
+	'object' == typeof exports && 'object' == typeof module
 		? (module.exports = t())
-		: "function" == typeof define && define.amd
-		? define("Fuse", [], t)
-		: "object" == typeof exports
+		: 'function' == typeof define && define.amd
+		? define('Fuse', [], t)
+		: 'object' == typeof exports
 		? (exports.Fuse = t())
 		: (e.Fuse = t());
 })(this, function () {
@@ -14,7 +14,7 @@
 				e.exports = function (e) {
 					return Array.isArray
 						? Array.isArray(e)
-						: "[object Array]" ===
+						: '[object Array]' ===
 								Object.prototype.toString.call(
 									e
 								);
@@ -23,21 +23,21 @@
 			function (e, t, r) {
 				function l(e) {
 					return (l =
-						"function" == typeof Symbol &&
-						"symbol" ==
+						'function' == typeof Symbol &&
+						'symbol' ==
 							typeof Symbol.iterator
 							? function (e) {
 									return typeof e;
 							  }
 							: function (e) {
 									return e &&
-										"function" ==
+										'function' ==
 											typeof Symbol &&
 										e.constructor ===
 											Symbol &&
 										e !==
 											Symbol.prototype
-										? "symbol"
+										? 'symbol'
 										: typeof e;
 							  })(e);
 				}
@@ -47,7 +47,7 @@
 						(n.enumerable =
 							n.enumerable || !1),
 							(n.configurable = !0),
-							"value" in n &&
+							'value' in n &&
 								(n.writable = !0),
 							Object.defineProperty(
 								e,
@@ -63,7 +63,7 @@
 						(n(J.prototype, [
 							{
 								key:
-									"setCollection",
+									'setCollection',
 								value: function (
 									e
 								) {
@@ -71,7 +71,7 @@
 								},
 							},
 							{
-								key: "search",
+								key: 'search',
 								value: function (
 									e
 								) {
@@ -117,7 +117,7 @@
 												s
 											),
 										t.limit &&
-											"number" ==
+											'number' ==
 												typeof t.limit &&
 											(s = s.slice(
 												0,
@@ -131,7 +131,7 @@
 							},
 							{
 								key:
-									"_prepareSearchers",
+									'_prepareSearchers',
 								value: function () {
 									var e =
 											0 <
@@ -139,7 +139,7 @@
 											void 0 !==
 												arguments[0]
 												? arguments[0]
-												: "",
+												: '',
 										t = [];
 									if (
 										this
@@ -177,7 +177,7 @@
 								},
 							},
 							{
-								key: "_search",
+								key: '_search',
 								value: function () {
 									var e =
 											0 <
@@ -196,7 +196,7 @@
 										n = {},
 										o = [];
 									if (
-										"string" ==
+										'string' ==
 										typeof r[0]
 									) {
 										for (
@@ -210,7 +210,7 @@
 											this._analyze(
 												{
 													key:
-														"",
+														'',
 													value:
 														r[
 															i
@@ -259,7 +259,7 @@
 												u
 											];
 											if (
-												"string" !=
+												'string' !=
 												typeof d
 											) {
 												if (
@@ -277,7 +277,7 @@
 															d.weight)
 												)
 													throw new Error(
-														"Key weight has to be > 0 and <= 1"
+														'Key weight has to be > 0 and <= 1'
 													);
 												d =
 													d.name;
@@ -312,7 +312,7 @@
 								},
 							},
 							{
-								key: "_analyze",
+								key: '_analyze',
 								value: function (
 									e,
 									t
@@ -368,14 +368,14 @@
 											y = -1,
 											m = 0;
 										if (
-											"string" ==
+											'string' ==
 											typeof i
 										) {
 											this._log(
-												"\nKey: ".concat(
-													"" ===
+												'\nKey: '.concat(
+													'' ===
 														r
-														? "-"
+														? '-'
 														: r
 												)
 											);
@@ -484,7 +484,7 @@
 														];
 												(y /= I),
 													this._log(
-														"Token score average:",
+														'Token score average:',
 														y
 													);
 											}
@@ -497,7 +497,7 @@
 														y) /
 													2),
 												this._log(
-													"Score average:",
+													'Score average:',
 													j
 												);
 											var P =
@@ -511,7 +511,7 @@
 													h.length;
 											if (
 												(this._log(
-													"\nCheck Matches: ".concat(
+													'\nCheck Matches: '.concat(
 														P
 													)
 												),
@@ -591,13 +591,13 @@
 							},
 							{
 								key:
-									"_computeScore",
+									'_computeScore',
 								value: function (
 									e,
 									t
 								) {
 									this._log(
-										"\n\nComputing score:\n"
+										'\n\nComputing score:\n'
 									);
 									for (
 										var r = 0,
@@ -670,12 +670,12 @@
 								},
 							},
 							{
-								key: "_sort",
+								key: '_sort',
 								value: function (
 									e
 								) {
 									this._log(
-										"\n\nSorting...."
+										'\n\nSorting....'
 									),
 										e.sort(
 											this
@@ -685,7 +685,7 @@
 								},
 							},
 							{
-								key: "_format",
+								key: '_format',
 								value: function (
 									e
 								) {
@@ -697,7 +697,7 @@
 									) {
 										var r = [];
 										this._log(
-											"\n\nOutput:\n\n",
+											'\n\nOutput:\n\n',
 											JSON.stringify(
 												e,
 												function (
@@ -705,7 +705,7 @@
 													t
 												) {
 													if (
-														"object" ===
+														'object' ===
 															l(
 																t
 															) &&
@@ -769,7 +769,7 @@
 															(a.key =
 																i.key),
 															i.hasOwnProperty(
-																"arrayIndex"
+																'arrayIndex'
 															) &&
 																-1 <
 																	i.arrayIndex &&
@@ -848,7 +848,7 @@
 								},
 							},
 							{
-								key: "_log",
+								key: '_log',
 								value: function () {
 									var e;
 									this
@@ -913,7 +913,7 @@
 					!(function (e) {
 						if (!(e instanceof J))
 							throw new TypeError(
-								"Cannot call a class as a function"
+								'Cannot call a class as a function'
 							);
 					})(this),
 						(this.options = {
@@ -947,7 +947,7 @@
 						(n.enumerable =
 							n.enumerable || !1),
 							(n.configurable = !0),
-							"value" in n &&
+							'value' in n &&
 								(n.writable = !0),
 							Object.defineProperty(
 								e,
@@ -962,7 +962,7 @@
 					o =
 						(n(k.prototype, [
 							{
-								key: "search",
+								key: 'search',
 								value: function (
 									e
 								) {
@@ -1054,7 +1054,7 @@
 					!(function (e) {
 						if (!(e instanceof k))
 							throw new TypeError(
-								"Cannot call a class as a function"
+								'Cannot call a class as a function'
 							);
 					})(this),
 						(this.options = {
@@ -1090,9 +1090,9 @@
 							t
 								.replace(
 									l,
-									"\\$&"
+									'\\$&'
 								)
-								.replace(r, "|")
+								.replace(r, '|')
 						),
 						o = e.match(n),
 						i = !!o,
@@ -1380,7 +1380,7 @@
 				e.exports = function (e, t) {
 					return (function e(t, r, n) {
 						if (r) {
-							var o = r.indexOf("."),
+							var o = r.indexOf('.'),
 								i = r,
 								a = null;
 							-1 !== o &&
@@ -1395,9 +1395,9 @@
 							if (null != s)
 								if (
 									a ||
-									("string" !=
+									('string' !=
 										typeof s &&
-										"number" !=
+										'number' !=
 											typeof s)
 								)
 									if (
@@ -1446,27 +1446,27 @@
 				});
 		}),
 		(o.r = function (e) {
-			"undefined" != typeof Symbol &&
+			'undefined' != typeof Symbol &&
 				Symbol.toStringTag &&
 				Object.defineProperty(e, Symbol.toStringTag, {
-					value: "Module",
+					value: 'Module',
 				}),
-				Object.defineProperty(e, "__esModule", {
+				Object.defineProperty(e, '__esModule', {
 					value: !0,
 				});
 		}),
 		(o.t = function (t, e) {
 			if ((1 & e && (t = o(t)), 8 & e)) return t;
-			if (4 & e && "object" == typeof t && t && t.__esModule)
+			if (4 & e && 'object' == typeof t && t && t.__esModule)
 				return t;
 			var r = Object.create(null);
 			if (
 				(o.r(r),
-				Object.defineProperty(r, "default", {
+				Object.defineProperty(r, 'default', {
 					enumerable: !0,
 					value: t,
 				}),
-				2 & e && "string" != typeof t)
+				2 & e && 'string' != typeof t)
 			)
 				for (var n in t)
 					o.d(
@@ -1487,12 +1487,12 @@
 					: function () {
 							return e;
 					  };
-			return o.d(t, "a", t), t;
+			return o.d(t, 'a', t), t;
 		}),
 		(o.o = function (e, t) {
 			return Object.prototype.hasOwnProperty.call(e, t);
 		}),
-		(o.p = ""),
+		(o.p = ''),
 		o((o.s = 1))
 	);
 	function o(e) {

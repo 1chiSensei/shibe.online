@@ -1,4 +1,4 @@
-declare module "shibe.online" {
+declare module 'shibe.online' {
 	/**
 	 * Get a random shiba inu!
 	 * @param {number} [count] The amount of images to get.
