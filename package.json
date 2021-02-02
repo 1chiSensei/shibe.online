@@ -1,6 +1,6 @@
 {
 	"name": "shibe.online",
-	"version": "1.2.0",
+	"version": "2.0.0",
 	"description": "JavaScript API wrapper for https://shibe.online.",
 	"main": "./lib/index.js",
 	"types": "./types/index.d.ts",
@@ -16,7 +16,8 @@
 		"test": "node ./test/test.js",
 		"eslint": "eslint . --fix",
 		"prettier": "prettier . --write",
-		"lint": "yarn run eslint && yarn run prettier"
+		"lint": "yarn run eslint && yarn run prettier",
+		"docs": "jsdoc -c .jsdoc.json"
 	},
 	"engines": {
 		"node": ">=12.0.0"
@@ -25,8 +26,10 @@
 		"node-superfetch": "^0.1.10"
 	},
 	"devDependencies": {
-		"eslint": "7.18.0",
+		"clean-jsdoc-theme": "^3.0.6",
+		"eslint": "7.19.0",
 		"eslint-config-tesseract": "0.0.3",
+		"jsdoc": "^3.6.6",
 		"prettier": "2.2.1"
 	}
 }
