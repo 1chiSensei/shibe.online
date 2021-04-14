@@ -167,12 +167,12 @@ chalk@^4.0.0:
     ansi-styles "^4.1.0"
     supports-color "^7.1.0"
 
-clean-jsdoc-theme@3.0.6:
-  version "3.0.6"
-  resolved "https://registry.yarnpkg.com/clean-jsdoc-theme/-/clean-jsdoc-theme-3.0.6.tgz#cbf0c40eefcf674e76ff8d6c7a6d27c8fe6cea9c"
-  integrity sha512-KbUGLAPv1q0aaJtpmQ1uMPvsVp2oebiIFxcbkJ+e4YHSQDEWHJLD8ziougWQaVp8CtqHKL7TXQz+JQOnFoUI8A==
+clean-jsdoc-theme@3.2.4:
+  version "3.2.4"
+  resolved "https://registry.yarnpkg.com/clean-jsdoc-theme/-/clean-jsdoc-theme-3.2.4.tgz#a8d5173ed746b9ddc8f19d31754e6e741f31209c"
+  integrity sha512-DV/0oZI0sxJLDhF9W+u2LBvm9XJFW94wwb+cSebZf6zHgpE8+Gg7XqfY/NMpNIKSjdqIEVecjtveBnkxR2GkQw==
   dependencies:
-    fs-extra "^9.0.1"
+    fs-extra "^9.1.0"
 
 color-convert@^1.9.0:
   version "1.9.3"
@@ -430,7 +430,7 @@ form-data@^2.3.2:
     combined-stream "^1.0.6"
     mime-types "^2.1.12"
 
-fs-extra@^9.0.1:
+fs-extra@^9.1.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-9.1.0.tgz#5954460c764a8da2094ba3554bf839e6b9a7c86d"
   integrity sha512-hcg3ZmepS30/7BSFqRvoo3DOMQu7IjqxO5nCDt+zM9XWjb33Wg7ziNT+Qvqbuc3+gWpzO02JubVyk2G4Zvo1OQ==
