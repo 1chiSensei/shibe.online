@@ -26,7 +26,7 @@
 		"node-superfetch": "^0.1.10"
 	},
 	"devDependencies": {
-		"clean-jsdoc-theme": "3.0.6",
+		"clean-jsdoc-theme": "3.2.7",
 		"eslint": "7.19.0",
 		"eslint-config-tesseract": "0.0.3",
 		"jsdoc": "3.6.6",
