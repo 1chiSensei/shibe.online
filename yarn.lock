@@ -270,10 +270,10 @@ escape-string-regexp@^2.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-2.0.0.tgz#a30304e99daa32e23b2fd20f51babd07cffca344"
   integrity sha512-UpzcLCXolUWcNu5HtVMHYdXJjArjsF9C0aNnquZYY4uW/Vu0miy5YoWvbV345HauVvcAUnpRuhMMcqTcGOY2+w==
 
-eslint-config-tesseract@0.0.3:
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-tesseract/-/eslint-config-tesseract-0.0.3.tgz#3021e71ad26b72e3ec3864a951bd4e438e3f75d9"
-  integrity sha512-zE8Lp5Ys8pL0NNR4Tzlpni2JhDVvifr6S1qJCjpU5P/nylanVcZHyg3v60CiA4pgpCd70YRMoyaF7aZI28t7Og==
+eslint-config-tesseract@0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-tesseract/-/eslint-config-tesseract-0.3.0.tgz#80e2d36494d78cf8dd7ee86dc9d8675ed13548ad"
+  integrity sha512-jTg/v4BLwKW/MrHD5JNLlD/IB3rdC4hLnGd5e+ZPx+pa3vz5OcDkiiUvtYpAhDd3m0aJvFrgzvwOLUC6cNzqMA==
 
 eslint-scope@^5.1.1:
   version "5.1.1"
