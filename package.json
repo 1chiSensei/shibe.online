@@ -28,7 +28,7 @@
 	"devDependencies": {
 		"clean-jsdoc-theme": "3.0.6",
 		"eslint": "7.19.0",
-		"eslint-config-tesseract": "0.0.3",
+		"eslint-config-tesseract": "0.3.0",
 		"jsdoc": "3.6.6",
 		"prettier": "2.2.1"
 	}
